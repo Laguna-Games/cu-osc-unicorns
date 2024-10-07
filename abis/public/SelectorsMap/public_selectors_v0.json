@@ -1,0 +1,469 @@
+{
+    "AirlockFacet": {
+        "functionSelectors": {
+            "0x9edcab23": "lockUnicornIntoGame",
+            "0x0b34c832": "multiUnlockUnicornsOutOfGameGenerateMessageHash",
+            "0x5f0ea204": "multiUnlockUnicornsOutOfGameWithSignatures",
+            "0x8ceca0cd": "unicornIsTransferable",
+            "0x44c9b41f": "unlockUnicornOutOfGameWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/AirlockFacet.sol/AirlockFacet.json"
+    },
+    "BatchAirlockFacet": {
+        "functionSelectors": {
+            "0x35d984ff": "batchLockUnicornsIntoGame",
+            "0x28ff4113": "batchUnlockUnicornsOutOfGameGenerateMessageHash",
+            "0x32b0e2e2": "batchUnlockUnicornsOutOfGameWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/BatchAirlockFacet.sol/BatchAirlockFacet.json"
+    },
+    "BreedingBeginFacet": {
+        "functionSelectors": {
+            "0xd2df3a9e": "beginBreedingWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/BreedingBeginFacet.sol/BreedingBeginFacet.json"
+    },
+    "BreedingFinishFacet": {
+        "functionSelectors": {
+            "0xd4db00cc": "finishBreedingWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/BreedingFinishFacet.sol/BreedingFinishFacet.json"
+    },
+    "BreedingRetryFacet": {
+        "functionSelectors": {
+            "0xe0e9c0fd": "retryBreedingWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/BreedingRetryFacet.sol/BreedingRetryFacet.json"
+    },
+    "ERC721Facet": {
+        "functionSelectors": {
+            "0x095ea7b3": "approve",
+            "0x70a08231": "balanceOf",
+            "0xe8a3d485": "contractURI",
+            "0x081812fc": "getApproved",
+            "0xe985e9c5": "isApprovedForAll",
+            "0x6b87d24c": "license",
+            "0x06fdde03": "name",
+            "0x6352211e": "ownerOf",
+            "0x42842e0e": "safeTransferFrom",
+            "0xb88d4fde": "safeTransferFrom",
+            "0xa22cb465": "setApprovalForAll",
+            "0x95d89b41": "symbol",
+            "0x4f6ccce7": "tokenByIndex",
+            "0x2f745c59": "tokenOfOwnerByIndex",
+            "0xc87b56dd": "tokenURI",
+            "0x18160ddd": "totalSupply",
+            "0x23b872dd": "transferFrom"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/ERC721Facet.sol/ERC721Facet.json"
+    },
+    "EvolutionFacet": {
+        "functionSelectors": {
+            "0x65b4613f": "beginEvolutionWithSignature",
+            "0x86c68622": "finishEvolutionWithSignature",
+            "0x7a4971ad": "retryEvolutionWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/EvolutionFacet.sol/EvolutionFacet.json"
+    },
+    "GemsInventoryFacet": {
+        "functionSelectors": {
+            "0xe327594f": "equipGems",
+            "0xf7a1cf4c": "getEquipPreview",
+            "0xe502058e": "getUnicornInventory"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/GemsInventoryFacet.sol/GemsInventoryFacet.json"
+    },
+    "GeneticViewFacet": {
+        "functionSelectors": {
+            "0x26895b13": "getBaseStats",
+            "0x3b02c9f6": "getBodyPartBuckets",
+            "0x5032bc47": "getBodyPartGlobalIdFromLocalId",
+            "0xa1dca58a": "getBodyPartInheritedGene",
+            "0x2b8cd97c": "getBodyPartIsMythic",
+            "0x8ce62897": "getBodyPartLocalIdFromGlobalId",
+            "0xc17ac7b3": "getBodyPartWeight",
+            "0x3f444235": "getGeneApplicationById",
+            "0x9f83467b": "getGeneBonusStatByGeneId",
+            "0x4b333e2e": "getGeneBonusValueByGeneId",
+            "0x900ee4bc": "getGeneBucketSumWeights",
+            "0xf2ca8cd9": "getGeneBuckets",
+            "0xc3c66d8e": "getGeneMapFromDNA",
+            "0x2968115c": "getGeneTierById",
+            "0xf58a4888": "getGeneTierUpgradeById",
+            "0x138a9b93": "getGeneWeightById",
+            "0x5e72d162": "getUnicornGeneMap"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/GeneticViewFacet.sol/GeneticViewFacet.json"
+    },
+    "HatchFacet": {
+        "functionSelectors": {
+            "0xe579d2ad": "beginHatchingEgg",
+            "0x1c5e73aa": "finishHatchingEgg"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/HatchFacet.sol/HatchFacet.json"
+    },
+    "HatchingFacet": {
+        "functionSelectors": {
+            "0xef68253d": "beginHatchingWithSignature",
+            "0x93551267": "finishHatchingWithSignature",
+            "0xe01c7002": "retryHatchingWithSignature"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/HatchingFacet.sol/HatchingFacet.json"
+    },
+    "IConstraintFacet": {
+        "functionSelectors": {
+            "0x3da2579c": "checkConstraint",
+            "0xf7308ef9": "checkConstraintForUserAndExtraTokens"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/IConstraintFacet.sol/IConstraintFacet.json"
+    },
+    "InventoryFacet": {
+        "functionSelectors": {
+            "0xb8d1691e": "equip",
+            "0x3bce871f": "getEquippedItem",
+            "0xd7105f3a": "getSlotById",
+            "0xc72fcdf9": "getSlotURI",
+            "0x1ebfdca4": "maxAmountOfItemInSlot",
+            "0x9621ff25": "numSlots",
+            "0x0ae9272b": "slotIsPersistent",
+            "0x0a59a98c": "subject",
+            "0x01ffc9a7": "supportsInterface",
+            "0xca461d95": "unequip"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/InventoryFacet.sol/InventoryFacet.json"
+    },
+    "JoustFacet": {
+        "functionSelectors": {
+            "0xdbd58bcf": "getBatchEmbeddedJoustRecord",
+            "0xd2e95276": "getBatchJoustRecord",
+            "0x3cce625f": "getBatchRawUnicornRecord",
+            "0xf935cd27": "getEmbeddedJoustEloScore",
+            "0x88a768ac": "getEmbeddedJoustLosses",
+            "0x8e40d240": "getEmbeddedJoustRecord",
+            "0xe4edc1cd": "getEmbeddedJoustTournamentWins",
+            "0x370ed296": "getEmbeddedJoustWins",
+            "0x6a2c2b67": "getEmbeddedVersion",
+            "0x0bfe47f8": "getJoustEloScores",
+            "0x9f256f6a": "getJoustRecord",
+            "0xe7bf5217": "getRawUnicornRecord"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/JoustFacet.sol/JoustFacet.json"
+    },
+    "LibBreeding": {
+        "functionSelectors": {
+            "0x16281266": "CALLBACK_SIGNATURE"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibBreeding.sol/LibBreeding.json"
+    },
+    "LibSupportsInterface": {
+        "functionSelectors": {
+            "0x3a53ff49": "SUPPORTS_INTERFACE_STORAGE_POSITION"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibSupportsInterface.sol/LibSupportsInterface.json"
+    },
+    "MetadataFacet": {
+        "functionSelectors": {
+            "0x5bb209a5": "getDNA",
+            "0x3449c807": "getIdempotentState",
+            "0x9b3d53dc": "getParentMetadata",
+            "0x53bab131": "getUnicornName",
+            "0xe035bfe5": "getUnicornParents",
+            "0x8fb037bb": "getUnicornsByOwner",
+            "0xb928d031": "setTargetDNAVersion"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/MetadataFacet.sol/MetadataFacet.json"
+    },
+    "NamesFacet": {
+        "functionSelectors": {
+            "0x465411c1": "getFullName",
+            "0x50a6b1e1": "getFullNameFromDNA",
+            "0x81dca44a": "lookupFirstName",
+            "0xc9516ab3": "lookupLastName"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/NamesFacet.sol/NamesFacet.json"
+    },
+    "ScoreScalarFacet": {
+        "functionSelectors": {
+            "0xa52878e2": "getEnduranceDefenseScalar",
+            "0xd1015776": "getEnduranceScalar",
+            "0x4341ba6a": "getEnduranceVitalityScalar",
+            "0x560ec9cc": "getIntelligenceMagicScalar",
+            "0x5fae0c73": "getIntelligenceResistanceScalar",
+            "0xe0d34c4d": "getIntelligenceScalar",
+            "0xbb8db062": "getPowerAccuracyScalar",
+            "0x4364df52": "getPowerAttackScalar",
+            "0xb7c09f69": "getPowerScalar",
+            "0xdcd8aa02": "getSpeedAttackspeedScalar",
+            "0x655dfe8f": "getSpeedMovespeedScalar",
+            "0x3589ff8a": "getSpeedScalar"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/ScoreScalarFacet.sol/ScoreScalarFacet.json"
+    },
+    "StatCacheFacet": {
+        "functionSelectors": {
+            "0x035a0de1": "cacheUnicornEnhancedStats",
+            "0xabcefed4": "cacheUnicornEnhancedStatsBatch",
+            "0x1a099a3c": "checkUnicornStatsCached",
+            "0xcb76149d": "checkUnicornStatsCachedBatch",
+            "0xc1dbb3b8": "getUnicornEnhancedStats",
+            "0x3d6ce112": "getUnicornEnhancedStatsBatch",
+            "0xbc8e74ea": "getUnicornFullStats",
+            "0xa6d91f9f": "getUnicornNaturalStats",
+            "0x4ed8efab": "getUnicornNaturalStatsBatch",
+            "0xe7f23173": "getUnicornStats",
+            "0x80ec0225": "getUnicornStatsBatch"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/StatCacheFacet.sol/StatCacheFacet.json"
+    },
+    "StatsFacet": {
+        "functionSelectors": {
+            "0x6500aee0": "getAccuracy",
+            "0xcff840f0": "getAttack",
+            "0x1c292b7c": "getAttackSpeed",
+            "0xeb22daa3": "getDefense",
+            "0x7419a276": "getEnduranceScore",
+            "0x50b03dd0": "getIntelligenceScore",
+            "0x5bc0a623": "getMagic",
+            "0xe53b5bef": "getMovementSpeed",
+            "0x0046658f": "getPowerScore",
+            "0x33947812": "getResistance",
+            "0x06b7935c": "getSpeedScore",
+            "0x7b303965": "getStats",
+            "0x8d4954f4": "getUnicornBodyParts",
+            "0x2831ebd9": "getUnicornBodyPartsLocal",
+            "0xa28eaae9": "getUnicornMetadata",
+            "0x69d1cc92": "getVitality",
+            "0xdd648956": "twtGetUnicornInfoMultiple"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/StatsFacet.sol/StatsFacet.json"
+    },
+    "TerminusFacet": {
+        "functionSelectors": {
+            "0x85bc82e2": "approveForPool",
+            "0x00fdd58e": "balanceOf",
+            "0x4e1273f4": "balanceOfBatch",
+            "0xf5298aca": "burn",
+            "0x3bad2d82": "createPoolV1",
+            "0x84fa03a1": "createPoolV2",
+            "0xb507ef52": "createSimplePool",
+            "0x027b3fc2": "isApprovedForPool",
+            "0x1f7fdffa": "mintBatch",
+            "0x3013ce29": "paymentToken",
+            "0x8925d013": "poolBasePrice",
+            "0x3c50a3c5": "poolIsBurnable",
+            "0x69453ce9": "poolIsTransferable",
+            "0x21adca96": "poolMintBatch",
+            "0x2eb2c2d6": "safeBatchTransferFrom",
+            "0xf242432a": "safeTransferFrom",
+            "0x938e3d7b": "setContractURI",
+            "0x92eefe9b": "setController",
+            "0x78cf2e84": "setPoolBasePrice",
+            "0x2365c859": "setPoolBurnable",
+            "0xdc55d0b2": "setPoolController",
+            "0xf3dc0a85": "setPoolTransferable",
+            "0x862440e2": "setURI",
+            "0x366e59e3": "terminusController",
+            "0x5dc8bdf8": "terminusPoolCapacity",
+            "0xd0c402e5": "terminusPoolController",
+            "0xa44cfc82": "terminusPoolSupply",
+            "0xab3c7e52": "totalPools",
+            "0x1fbeae86": "unapproveForPool",
+            "0x0e89341c": "uri",
+            "0x0e7afec5": "withdrawPayments"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/TerminusFacet.sol/TerminusFacet.json"
+    },
+    "TokenURIFacet": {
+        "functionSelectors": {
+            "0x59e91927": "batchMigrateTokenURIs"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/TokenURIFacet.sol/TokenURIFacet.json"
+    },
+    "UnicornERC721Facet": {
+        "functionSelectors": {
+            "0x42966c68": "burn"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/UnicornERC721Facet.sol/UnicornERC721Facet.json"
+    },
+    "UnicornFacet": {
+        "functionSelectors": {
+            "0x5b2d1633": "batchBurnFrom",
+            "0xa998f3f0": "batchSacrificeUnicorns"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/UnicornFacet.sol/UnicornFacet.json"
+    },
+    "VRFCallbackBreedingFacet": {
+        "functionSelectors": {
+            "0xf65aac75": "fulfillBreedingRandomness"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/VRFCallbackBreedingFacet.sol/VRFCallbackBreedingFacet.json"
+    },
+    "VRFCallbackEvolutionFacet": {
+        "functionSelectors": {
+            "0x5cedffcf": "fulfillEvolutionRandomness"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/VRFCallbackEvolutionFacet.sol/VRFCallbackEvolutionFacet.json"
+    },
+    "VRFCallbackHatchingFacet": {
+        "functionSelectors": {
+            "0x6cfae39a": "fulfillHatchingRandomness"
+        },
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/VRFCallbackHatchingFacet.sol/VRFCallbackHatchingFacet.json"
+    },
+    "public": {
+        "eventSelectors": {
+            "0x24cc9ab3": "HatchFinishedEvent",
+            "0x2b5815fe": "HatchStartedEvent",
+            "0x85e5a22b": "AdministratorDesignated",
+            "0xf6a6e743": "ItemEquipped",
+            "0x1adb69fb": "ItemMarkedAsEquippableInSlot",
+            "0xb139f597": "ItemUnequipped",
+            "0xcb98961b": "NewSlotPersistence",
+            "0x0b9b88d8": "NewSlotURI",
+            "0xacae6a03": "NewSubjectAddress",
+            "0x935da2ce": "SlotCreated",
+            "0xd932cfe2": "BatchUnlockUnicornsOutOfGame",
+            "0x75e14521": "UnicornLockedIntoGame",
+            "0x324d5a4e": "UnicornLockedIntoGameV2",
+            "0xa710ca05": "UnicornUnlockedOutOfGame",
+            "0x325de1b2": "UnicornUnlockedOutOfGameForcefully",
+            "0x30f1afb9": "UnicornUnlockedOutOfGameV2",
+            "0x6a240f3d": "BreedingComplete",
+            "0x4ea34dcb": "BreedingCompleteV2",
+            "0x4f9507a2": "BreedingStarted",
+            "0x0069bb50": "BreedingStartedV2",
+            "0x972f1920": "NewEggRNGRequested",
+            "0x242b49ac": "NewEggRNGRequestedV2",
+            "0x7f0643db": "NewEggReadyForTokenURI",
+            "0xde5b1c2d": "NewEggReadyForTokenURIV2",
+            "0x0ea9aac5": "UnicornEggCreated",
+            "0xe927cce5": "UnicornEggCreatedV2",
+            "0x7e644d79": "AdminChanged",
+            "0x8be0079c": "OwnershipTransferred",
+            "0x8faa7087": "DiamondCut",
+            "0x8c5be1e5": "Approval",
+            "0x17307eab": "ApprovalForAll",
+            "0x6bd5c950": "BatchMetadataUpdate",
+            "0xf8e1a15a": "MetadataUpdate",
+            "0xddf252ad": "Transfer",
+            "0x1739ab44": "JoustOracleUpdated",
+            "0x0566c548": "TargetUnicornVersionUpdated",
+            "0xbc72236f": "UnicornRecordChanged",
+            "0x6da9df82": "GemsEquipped",
+            "0x25724f8b": "UnicornEnhancedStatsChanged",
+            "0xdca6a230": "UnicornNaturalStatsChanged",
+            "0x6226a43a": "EvolutionComplete",
+            "0xce85049d": "EvolutionCompleteV2",
+            "0xe6df6e83": "EvolutionRNGRequested",
+            "0x630211b1": "EvolutionRNGRequestedV2",
+            "0xcfb7af49": "EvolutionReadyForTokenURI",
+            "0x8f3c211d": "EvolutionReadyForTokenURIV2",
+            "0x6bbde817": "GasReturnedToUser",
+            "0xc4b5eea2": "GasReturnerInsufficientBalance",
+            "0xa72c9035": "GasReturnerMaxGasReturnedPerTransactionChanged",
+            "0xad236525": "HatchingComplete",
+            "0x68b73a42": "HatchingCompleteV2",
+            "0xe8a44ba5": "HatchingRNGRequested",
+            "0x01bf5649": "HatchingRNGRequestedV2",
+            "0xe624f790": "HatchingReadyForTokenURI",
+            "0x4cf61237": "HatchingReadyForTokenURIV2",
+            "0xa06677f7": "ControlTransferred",
+            "0xbb8e9c3c": "PoolControlTransferred",
+            "0x9224d149": "DNAUpdated",
+            "0xba627779": "PoolMintBatch",
+            "0x4a39dc06": "TransferBatch",
+            "0xc3d58168": "TransferSingle",
+            "0x6bb7ff70": "URI"
+        }
+    },
+    "LibInventory": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/InventoryFacet.sol/LibInventory.json"
+    },
+    "LibAccessBadge": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibAccessBadge.sol/LibAccessBadge.json"
+    },
+    "LibAirlock": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibAirlock.sol/LibAirlock.json"
+    },
+    "LibBin": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibBin.sol/LibBin.json"
+    },
+    "LibCheck": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibCheck.sol/LibCheck.json"
+    },
+    "LibConstraintOperator": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibConstraintOperator.sol/LibConstraintOperator.json"
+    },
+    "LibConstraints": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibConstraints.sol/LibConstraints.json"
+    },
+    "LibContractOwner": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/libraries/LibContractOwner.sol/LibContractOwner.json"
+    },
+    "LibDiamondMoonstream": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibDiamondMoonstream.sol/LibDiamondMoonstream.json"
+    },
+    "LibERC721": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibERC721.sol/LibERC721.json"
+    },
+    "LibElo": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibElo.sol/LibElo.json"
+    },
+    "LibEnvironment": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibEnvironment.sol/LibEnvironment.json"
+    },
+    "LibEvents": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibEvents.sol/LibEvents.json"
+    },
+    "LibEvolution": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibEvolution.sol/LibEvolution.json"
+    },
+    "LibGasReturner": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibGasReturner.sol/LibGasReturner.json"
+    },
+    "LibGenes": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibGenes.sol/LibGenes.json"
+    },
+    "LibHatching": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibHatching.sol/LibHatching.json"
+    },
+    "LibMigration": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibMigration.sol/LibMigration.json"
+    },
+    "LibPermissions": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibPermissions.sol/LibPermissions.json"
+    },
+    "LibReentrancyGuard": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibReentrancyGuard.sol/LibReentrancyGuard.json"
+    },
+    "LibResourceLocator": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibResourceLocator.sol/LibResourceLocator.json"
+    },
+    "LibSignatures": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibSignatures.sol/LibSignatures.json"
+    },
+    "LibStatCache": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibStatCache.sol/LibStatCache.json"
+    },
+    "LibTerminus": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibTerminus.sol/LibTerminus.json"
+    },
+    "LibUnicorn": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibUnicorn.sol/LibUnicorn.json"
+    },
+    "LibUnicornDNA": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibUnicornDNA.sol/LibUnicornDNA.json"
+    },
+    "LibUnicornInventory": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LibUnicornInventory.sol/LibUnicornInventory.json"
+    },
+    "LimitedEditionFacet": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/LimitedEditionFacet.sol/LimitedEditionFacet.json"
+    },
+    "UnicornConstraintFacet": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/UnicornConstraintFacet.sol/UnicornConstraintFacet.json"
+    },
+    "UnicornInventoryFacet": {
+        "path": "/Users/shiva/CryptoUnicorns/cu-osc-unicorns/build/UnicornInventoryFacet.sol/UnicornInventoryFacet.json"
+    }
+}
